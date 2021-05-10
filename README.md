@@ -8,7 +8,7 @@ I needed some crate for debugging a `cargo` issue.
 
 ### Features
 
-This crate promises (in a non-legal sense) to be as side-effect-free as crate-possible:
+This crate promises (*in a non-legal sense) to be as side-effect-free as crate-possible:
 
 - should compile with Rust 1.0.0,
 - no dependencies,
@@ -36,3 +36,8 @@ pub fn main() {
     some_crate::f();
 }
 ```
+
+
+### License
+
+[Do What The Fuck You Want To Public License](https://choosealicense.com/licenses/wtfpl/)
