@@ -3,8 +3,9 @@ name = "some_crate"
 version = "0.1.0"
 authors = ["Ralf Biedert <rb@xr.io>"]
 license = "WTFPL"
-edition = "2018"
-description = "Dummy crate that does nothing if you just need to test something."
+edition = "2015"
+description = "If you just need a crate that's guaranteed(*) to do practically nothing."
+repository = "https://github.com/ralfbiedert/some_crate"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
