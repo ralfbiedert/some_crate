@@ -14,5 +14,8 @@ use core::sync::atomic::{AtomicUsize};
 /// Does absolutely nothing.
 pub fn f() {}
 
+/// Also does nothing.
+pub fn g() {}
+
 /// A global static counter.
 pub static GLOBAL_COUNTER: AtomicUsize = AtomicUsize::new(0);
