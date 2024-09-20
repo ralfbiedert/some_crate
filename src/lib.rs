@@ -4,11 +4,15 @@
 //! - should compile with Rust 1.0.0,
 //! - no dependencies,
 //! - `#![no_std]`,
-//! - doesn't set any app-global state,
 //! - only a handful of functions exported.
 //!
 //! Some non-default feature flags might be added later to opt into additional behavior.
 //!
 
+use core::sync::atomic::{AtomicUsize};
+
 /// Does absolutely nothing.
 pub fn f() {}
+
+/// A global static counter.
+pub static GLOBAL_COUNTER: AtomicUsize = AtomicUsize::new(0);
